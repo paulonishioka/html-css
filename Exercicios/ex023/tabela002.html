@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
         td, th {
@@ -19,8 +20,16 @@
         }
         /*por padrão do navegador o TH já sai em negrito e centralizado*/
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        /*configuração para fixar o cabeçalho da tabela, aliado ao POSITION: RELATIVE já colocado em TABLE e demais configs abaixo*/
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:#383838;
+            ;
         }
 
         /*para efeito zebrado nas tabelas pode-se usar a pseudo classe NTH-CHILD(Xn) onde X é a qtde de vezes que quero q o efeito se repita. Tb posso usar ODD (=ímpar) no lugar de (Xn) e o efeito ocorrerá nas células ímpares*/
@@ -172,6 +181,12 @@
             </tr>
         </tfoot>
     </table>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis unde modi aspernatur. Nesciunt repellendus iste, suscipit sapiente tempora, quasi quibusdam dignissimos quidem adipisci nostrum ullam earum. Maxime, enim reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam culpa quis nemo corporis, at nostrum quae quos veniam, quidem id qui doloribus maiores voluptates neque ullam? Nulla vero et aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, voluptates, vitae at dolore, nostrum magnam repellat est ratione nihil iure et minus. Recusandae distinctio quasi fugit sequi debitis quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis nesciunt saepe delectus reiciendis numquam soluta perferendis quos ut aut maxime accusamus doloribus quibusdam placeat temporibus veritatis, expedita suscipit veniam!</p>
 </body>
 </html>
