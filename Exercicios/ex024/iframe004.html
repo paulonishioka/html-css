@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus obcaecati eaque dicta unde vitae qui est earum blanditiis architecto, accusantium cum perspiciatis ea illo repudiandae quisquam illum nisi doloribus aliquam?</p>
+    <!-- abaixo: para tornar o iframe um pouco mais seguro basta colocar ocomando "SANDBOX=SANDBOX" e também o REFERRERPOLICY. Valor padrão de navegador é "no-referer-when-downgrade", mas para tonrar o iframe mais limitado usa-se o valor "NO-REFERRER". O q quer dizer? O q está carregado dentro do iframe não irá coletar nenhum dado do usuário
+    -->
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referer-when-downgrade">
+        Seu navegador não é compatível com isso...</iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, fuga dolor. Sapiente earum quos tempora aspernatur eum esse distinctio assumenda quod nisi aut cum repellat provident porro, omnis odio in!</p>
+
+</body>
+</html>
